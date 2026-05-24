@@ -15,23 +15,24 @@ export default function Page() {
       alert('Hatalı giriş')
     }
   }
+{
+  name: 'Tarık Polat',
+  role: 'Döner Ustası',
+  salary: 55000,
+  overtime: 0,
+  bonus: 0,
+  advance: 0,
+},
 
-  const employees = [
-    {
-      name: 'Tarık Polat',
-      role: 'Döner Ustası',
-      salary: 55000,
-      overtime: 0
-    ,
-      bonus: 0,
-      advance: 0,
-
-    },name: 'Mehmet Uurlu',
-      role: 'Döner Ustası',
-      salary: 45000,
-      overtime: 18,
-      bonus: 0,
-      advance: 4000,
+{
+  name: 'Mehmet Uurlu',
+  role: 'Döner Ustası',
+  salary: 45000,
+  overtime: 18,
+  bonus: 0,
+  advance: 4000,
+},
+  
     {
       name: 'Yunus ',
       role: 'Kasiyer',
