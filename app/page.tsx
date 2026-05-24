@@ -9,7 +9,7 @@ export default function Page() {
   const [password, setPassword] = useState('')
 
   const login = () => {
-    if (username === 'admin' && password === '12345') {
+    if (username === 'admin' && password === 'hey2026') {
       setLoggedIn(true)
     } else {
       alert('Hatalı giriş')
