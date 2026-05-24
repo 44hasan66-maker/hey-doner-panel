@@ -18,15 +18,22 @@ export default function Page() {
 
   const employees = [
     {
-      name: 'Ahmet Yılmaz',
+      name: 'Tarık Polat',
       role: 'Döner Ustası',
-      salary: 38000,
+      salary: 55000,
+      overtime: 0
+    ,
+      bonus: 0,
+      advance: 0,
+
+    },name: 'Mehmet Uurlu',
+      role: 'Döner Ustası',
+      salary: 45000,
       overtime: 18,
-      bonus: 2500,
-      advance: 3000,
-    },
+      bonus: 0,
+      advance: 4000,
     {
-      name: 'Mehmet Kaya',
+      name: 'Yunus ',
       role: 'Kasiyer',
       salary: 30000,
       overtime: 10,
@@ -34,8 +41,8 @@ export default function Page() {
       advance: 1000,
     },
     {
-      name: 'Ali Demir',
-      role: 'Kurye',
+      name: 'Vedat',
+      role: 'Garson',
       salary: 28000,
       overtime: 15,
       bonus: 1500,
